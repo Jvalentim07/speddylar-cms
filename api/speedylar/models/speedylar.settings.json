@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "speedylars",
+  "info": {
+    "name": "speedylar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.header"
+    }
+  }
+}

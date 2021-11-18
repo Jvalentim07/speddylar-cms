@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_global_homes",
+  "info": {
+    "name": "Home",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "SubTitle": {
+      "type": "string"
+    }
+  }
+}

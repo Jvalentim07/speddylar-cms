@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_global_metas",
+  "info": {
+    "name": "Metas",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicos",
+  "info": {
+    "name": "Serviços",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.seo"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/speedylars",
+      "handler": "speedylar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/speedylars/count",
+      "handler": "speedylar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/speedylars/:id",
+      "handler": "speedylar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/speedylars",
+      "handler": "speedylar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/speedylars/:id",
+      "handler": "speedylar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/speedylars/:id",
+      "handler": "speedylar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

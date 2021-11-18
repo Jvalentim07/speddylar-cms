@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fgdfg",
+      "handler": "fgdfg.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fgdfg",
+      "handler": "fgdfg.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fgdfg",
+      "handler": "fgdfg.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

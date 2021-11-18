@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_global_headers",
+  "info": {
+    "name": "Header",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Contact": {
+      "type": "string"
+    },
+    "Logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.metas"
+    },
+    "Services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.metas"
+    }
+  }
+}

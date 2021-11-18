@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "fgdfgs",
+  "info": {
+    "name": "ServicePage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.seo"
+    }
+  }
+}

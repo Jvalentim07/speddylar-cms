@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_global_seos",
+  "info": {
+    "name": "seo",
+    "icon": "bezier-curve",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
+    },
+    "Metas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.metas"
+    },
+    "Teste": {
+      "type": "string"
+    }
+  }
+}
